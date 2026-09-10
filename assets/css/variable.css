@@ -1,0 +1,117 @@
+/*======================================
+  ELEVATE DIGITAL AGENCY - COLOR SYSTEM
+=======================================*/
+
+:root {
+
+  /* ========= Brand Colors ========= */
+
+  /* Primary Brand */
+  --primary: #00B8C9;
+  --primary-dark: #066d88;
+  --primary-light: #45D7E3;
+
+  /* Secondary (Growth Orange) */
+  --secondary: #F59E0B;
+  --secondary-dark: #fd810d;
+  --secondary-light: #FDBA3B;
+
+  --box-bg: rgba(253, 129, 13, 0.2);
+
+  /* Accent */
+  --accent: #7BE495;
+
+  /* ========= Backgrounds ========= */
+
+  --bg-dark: #0B1F2A;
+  --bg: #fff;
+  --bg-light: #EAF9FB;
+  --surface: #F6FBFC;
+
+  /* ========= Text ========= */
+
+  --text-primary: #062B4D;
+  --text-secondary: #56707D;
+  --text-light: #7D95A1;
+  --text-white: #FFFFFF;
+
+  /* ========= Borders ========= */
+
+  --border: #D6E9EE;
+  --border-dark: #B8D5DC;
+
+    /* Border Radius */
+    --radius-sm: 8px;
+    --radius-md: 12px;
+    --radius-lg: 16px;
+    --radius-xl: 24px;
+
+    /* Section Spacing */
+    --section-space: 100px;
+    --section-space-md: 80px;
+    --section-space-sm: 60px;
+
+    /* Header */
+    --header-height: 90px;
+
+  /* ========= Status ========= */
+
+  --success: #22C55E;
+  --warning: #F59E0B;
+  --danger: #EF4444;
+  --info: #0EA5E9;
+
+  /* ========= Shadows ========= */
+
+  --shadow-sm: rgba(11, 31, 42, 0.08);
+  --shadow-md: rgba(11, 31, 42, 0.15);
+  --shadow-lg: rgba(11, 31, 42, 0.25);
+
+  /* ========= Gradients ========= */
+
+  --gradient-primary: linear-gradient(
+      135deg,
+      #00B8C9 0%,
+      #45D7E3 100%
+  );
+
+  --gradient-brand: linear-gradient(
+      135deg,
+      #00B8C9 0%,
+      #F59E0B 100%
+  );
+
+  --gradient-hero: linear-gradient(
+      135deg,
+      #0B1F2A 0%,
+      #122B38 60%,
+      #0094A5 100%
+  );
+
+  --gradient-button: linear-gradient(
+      270deg,
+      #F59E0B 0%,
+      #D97706 100%
+  );
+  --gradient-hover: linear-gradient(
+      0deg,
+      rgb(253, 186, 59, 20%) 0%,
+      rgb(217, 129, 13, 20%) 100%
+  );
+  --gradient-hover-dark: linear-gradient(
+      0deg,
+      rgb(253, 186, 59, 40%) 0%,
+      rgb(217, 129, 13, 40%) 100%
+  );
+    /* Transition */
+
+    --transition:.3s ease;
+
+    /* Width */
+
+    --container:1280px;
+
+    /* font */
+    --font:'Poppins', sans-serif;
+
+}

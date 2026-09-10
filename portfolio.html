@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Elevate Digital</title>
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/portfolio.css">
+    <link rel="stylesheet" href="/assets/css/variable.css">
+    <link rel="stylesheet" href="/assets/css/responsive.css">
+
+    <!-- Poppins Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Slick Slider CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"
+        integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <main>
+
+        <!-- =========================
+        HEADER
+========================== -->
+        <header class="header" id="header">
+            <div class="container">
+                <!-- Logo -->
+                <a href="index.html" class="logo">
+                    <img src="assets/logos/elevate-digital-agency_.png" alt="Elevate Digital Agency">
+                </a>
+                <!-- Navigation -->
+                <nav class="navbar">
+                    <ul class="nav-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                        <li><a href="case-studies.html">Case Studies</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                    </ul>
+                </nav>
+                <!-- CTA -->
+                <a href="contact.html" class="btn btn-primary desktop-btn">
+                    Contact Us
+                </a>
+                <!-- Mobile Toggle -->
+                <div class="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </header>
+        <!-- Overlay -->
+        <div class="mobile-overlay"></div>
+
+
+
+
+        <!-- ==========================================
+     PORTFOLIO HERO SECTION
+========================================== -->
+        <section class="portfolio-hero">
+
+            <div class="container">
+
+                <div class="portfolio-hero-content">
+
+                    <span class="section-label">
+                        Our Work
+                    </span>
+
+                    <h1>
+                        Digital Experiences
+                        <span>That Drive Results.</span>
+                    </h1>
+
+                    <p>
+                        Explore selected projects where strategy, design,
+                        and technology come together to create meaningful
+                        digital experiences and measurable business growth.
+                    </p>
+
+                    <div class="portfolio-hero-actions">
+
+                        <a href="#featured-projects" class="btn btn-primary">
+                            View Our Work
+                            <i class="fa-solid fa-arrow-down"></i>
+                        </a>
+
+                        <a href="contact.html" class="btn btn-secondary">
+                            Start a Project
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <!-- Decorative Visual -->
+                <div class="portfolio-hero-decoration">
+
+                    <div class="portfolio-orbit orbit-one"></div>
+                    <div class="portfolio-orbit orbit-two"></div>
+
+                    <div class="portfolio-hero-shape shape-one"></div>
+                    <div class="portfolio-hero-shape shape-two"></div>
+
+                    <div class="portfolio-hero-badge badge-one">
+                        <i class="fa-solid fa-code"></i>
+                        <span>Development</span>
+                    </div>
+
+                    <div class="portfolio-hero-badge badge-two">
+                        <i class="fa-solid fa-chart-line"></i>
+                        <span>Growth</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+
+        <!-- =========================================
+     PORTFOLIO CATEGORIES
+     Filters projects by category
+========================================= -->
+        <section class="portfolio-categories">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-label">Explore Our Work</span>
+
+                    <h2>
+                        Browse Projects by <span>Category.</span>
+                    </h2>
+
+                    <p>
+                        Explore our work across design, development, SaaS,
+                        and e-commerce experiences.
+                    </p>
+                </div>
+
+                <!-- Filter Buttons -->
+                <div class="portfolio-filters" role="tablist">
+
+                    <button class="portfolio-filter active" data-filter="all">
+                        All Projects
+                    </button>
+
+                    <button class="portfolio-filter" data-filter="web-design">
+                        Web Design
+                    </button>
+
+                    <button class="portfolio-filter" data-filter="development">
+                        Development
+                    </button>
+
+                    <button class="portfolio-filter" data-filter="saas">
+                        SaaS
+                    </button>
+
+                    <button class="portfolio-filter" data-filter="ecommerce">
+                        E-commerce
+                    </button>
+
+                </div>
+
+            </div>
+        </section>
+
+
+
+        <!-- ==========================================
+     FEATURED PROJECTS
+========================================== -->
+        <section class="featured-projects" id="featured-projects">
+            <div class="container">
+
+                <!-- Featured Projects Grid -->
+                <div class="featured-projects-grid">
+
+                    <!-- Project 01 -->
+                    <article class="featured-project-card" data-category="saas development">
+
+                        <div class="featured-project-image">
+                            <img src="assets/images/portfolio/FlowPilot.png" alt="FlowPilot SaaS landing page">
+
+                            <div class="featured-project-overlay">
+                                <a href="case-studies.html" class="project-view-btn">
+                                    View Case Study
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="featured-project-content">
+
+                            <div class="project-meta">
+                                <span>SaaS</span>
+                                <span>Landing Page</span>
+                            </div>
+
+                            <h3>FlowPilot</h3>
+
+                            <p>
+                                A modern SaaS landing page designed to communicate
+                                product value clearly and drive user conversions.
+                            </p>
+
+                            <a href="https://muskan-khosla.github.io/flowpilot/" target="_blank" class="project-link">
+                                View Project
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+
+                        </div>
+                    </article>
+
+
+                    <!-- Project 02 -->
+                    <article class="featured-project-card" data-category="web-design development">
+
+                        <div class="featured-project-image">
+                            <img src="assets/images/portfolio/Elevate-Digital.png" alt="Elevate Digital Agency website">
+
+                            <div class="featured-project-overlay">
+                                <a href="#" class="project-view-btn">
+                                    View Case Study
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="featured-project-content">
+
+                            <div class="project-meta">
+                                <span>Agency</span>
+                                <span>Web Design</span>
+                            </div>
+
+                            <h3>Elevate Digital Agency</h3>
+
+                            <p>
+                                A conversion-focused digital agency website combining
+                                bold visual design with a scalable user experience.
+                            </p>
+
+                            <a href="#" class="project-link">
+                                View Project
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+
+                        </div>
+                    </article>
+
+
+                    <!-- Project 03 -->
+                    <article class="featured-project-card" data-category="ecommerce web-design">
+
+                        <div class="featured-project-image">
+
+                            <img src="images/portfolio/e-commerce.jpg" alt="Online fashion store website concept">
+
+                            <div class="featured-project-overlay">
+
+                                <a href="#" class="project-view-btn">
+                                    View Case Study
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                        <div class="featured-project-content">
+
+                            <div class="project-meta">
+                                <span>E-commerce</span>
+                                <span>Web Design</span>
+                            </div>
+
+                            <h3>
+                                Online Fashion Store
+                            </h3>
+
+                            <p>
+                                A conversion-focused e-commerce experience designed
+                                around intuitive product discovery, modern visuals,
+                                and a smooth shopping journey.
+                            </p>
+
+                            <a href="#" class="project-link">
+                                View Project
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+
+
+
+        <!-- ==========================================
+     PORTFOLIO IMPACT SECTION
+========================================== -->
+        <section class="portfolio-impact">
+
+            <div class="container">
+
+                <div class="portfolio-impact-wrapper">
+
+                    <!-- Left Content -->
+                    <div class="portfolio-impact-content section-heading">
+
+                        <span class="section-label">
+                            Our Approach
+                        </span>
+
+                        <h2>
+                            Design That Looks Good.
+                            <span>Development That Works.</span>
+                        </h2>
+
+                        <p>
+                            Every project is built with a balance of creativity,
+                            usability, performance, and business goals. We don't
+                            just create attractive websites — we create digital
+                            experiences designed to work.
+                        </p>
+
+                        <a href="contact.html" class="portfolio-impact-link">
+                            Let's Build Something
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                    </div>
+
+                    <!-- Right Stats -->
+                    <div class="portfolio-impact-stats">
+
+                        <div class="impact-stat">
+                            <div class="impact-stat-icon">
+                                <i class="fa-solid fa-palette"></i>
+                            </div>
+
+                            <div>
+                                <strong>UI/UX</strong>
+                                <span>Thoughtful Experiences</span>
+                            </div>
+                        </div>
+
+                        <div class="impact-stat">
+                            <div class="impact-stat-icon">
+                                <i class="fa-solid fa-code"></i>
+                            </div>
+
+                            <div>
+                                <strong>Clean Code</strong>
+                                <span>Scalable Development</span>
+                            </div>
+                        </div>
+
+                        <div class="impact-stat">
+                            <div class="impact-stat-icon">
+                                <i class="fa-solid fa-mobile-screen-button"></i>
+                            </div>
+
+                            <div>
+                                <strong>Responsive</strong>
+                                <span>Every Screen, Every Device</span>
+                            </div>
+                        </div>
+
+                        <div class="impact-stat">
+                            <div class="impact-stat-icon">
+                                <i class="fa-solid fa-gauge-high"></i>
+                            </div>
+
+                            <div>
+                                <strong>Performance</strong>
+                                <span>Fast & Optimized</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+
+
+
+
+        <!-- =========================================
+     CTA SECTION
+========================================= -->
+        <section class="cta-section">
+            <div class="container">
+                <div class="cta-box">
+                    <!-- CTA Content -->
+                    <div class="cta-content">
+                        <h2>
+                            Ready to Grow Your Business?
+                        </h2>
+                        <p>
+                            Let's build a smarter digital strategy that
+                            drives traffic, generates leads, and grows
+                            your business.
+                        </p>
+                        <!-- CTA Benefits -->
+                        <div class="cta-benefits">
+                            <span>
+                                <i class="fa-regular fa-circle-check"></i>
+                                No Long-Term Contracts
+                            </span>
+                            <span>
+                                <i class="fa-regular fa-circle-check"></i>
+                                Free Strategy Call
+                            </span>
+                            <span>
+                                <i class="fa-regular fa-circle-check"></i>
+                                Results-Driven Approach
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- CTA Buttons -->
+                    <div class="cta-actions">
+                        <a href="contact.html" class="cta-primary">
+                            Get Free Strategy Call
+                        </a>
+                        <a href="contact.html" class="cta-secondary">
+                            Book a Consultation
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- =========================================
+     FOOTER
+========================================= -->
+        <footer class="site-footer">
+            <div class="container">
+                <div class="footer-main">
+                    <!-- =================================
+                 BRAND COLUMN
+            ================================== -->
+                    <div class="footer-brand">
+                        <a href="index.html" class="footer-logo">
+                            <img src="assets/logos/elevate-digital-agency_.png" alt="Elevate Digital Agency">
+                        </a>
+                        <!-- Social Links -->
+                        <div class="footer-socials">
+                            <a href="#" aria-label="LinkedIn">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                            <a href="#" aria-label="X">
+                                <i class="fa-brands fa-x-twitter"></i>
+                            </a>
+                            <a href="#" aria-label="GitHub">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                <!-- =================================
+                 QUICK LINKS
+            ================================== -->
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="services.html">Services</a>
+                    </li>
+                    <li>
+                        <a href="portfolio.html" class="active">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="case-studies.html">
+                            Case Studies
+                        </a>
+                    </li>
+                    <li>
+                        <a href="pricing.html">Pricing</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- =================================
+                 RESOURCES
+            ================================== -->
+            <div class="footer-column">
+                <h3>Resources</h3>
+                <ul>
+                    <li>
+                        <a href="faq.html">FAQ</a>
+                    </li>
+                    <li>
+                        <a href="privacy-policy.html">
+                            Privacy Policy
+                        </a>
+                    </li>
+                    <li>
+                        <a href="terms-of-service.html">
+                            Terms of Service
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contact.html">
+                            Contact
+                        </a>
+                    </li>
+                 
+                </ul>
+            </div>
+                </div>
+
+                <!-- =================================
+             FOOTER BOTTOM
+        ================================== -->
+                <div class="footer-bottom">
+                    <p>
+                        © 2026 Elevate Digital. All rights reserved.
+                        Designed &amp; Developed by Muskan Khosla.
+                    </p>
+                </div>
+            </div>
+
+        </footer>
+
+
+    </main>
+
+    <!-- slick slider -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+    <!-- Your custom JS -->
+    <script src="assets/js/portfolio.js"></script>
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,743 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Case Studies | Elevate Digital</title>
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/case-studies.css">
+    <link rel="stylesheet" href="/assets/css/variable.css">
+    <link rel="stylesheet" href="/assets/css/responsive.css">
+
+    <!-- Poppins Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- Slick Slider CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css" integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+<main>
+
+<!-- =========================
+        HEADER
+========================== -->
+<header class="header" id="header">
+    <div class="container">
+        <!-- Logo -->
+        <a href="index.html" class="logo">
+            <img src="assets/logos/elevate-digital-agency_.png" alt="Elevate Digital Agency">
+        </a>
+        <!-- Navigation -->
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="case-studies.html" class="active">Case Studies</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
+        </nav>
+        <!-- CTA -->
+        <a href="contact.html" class="btn btn-primary desktop-btn">
+            Contact Us
+        </a>
+        <!-- Mobile Toggle -->
+        <div class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</header>
+<!-- Overlay -->
+<div class="mobile-overlay"></div>
+
+
+<!-- ==========================================
+     CASE STUDIES HERO
+========================================== -->
+<section class="case-studies-hero reveal">
+    <div class="container">
+
+        <div class="case-studies-hero-grid">
+
+            <!-- Left: Hero Content -->
+            <div class="case-studies-hero-content">
+
+                <span class="section-label">
+                    Our Work
+                </span>
+
+                <h1>
+                    Digital Experiences
+                    <span>That Drive Results.</span>
+                </h1>
+
+                <p>
+                    Explore selected client projects where strategy, design,
+                    and technology come together to create meaningful digital
+                    experiences and measurable business growth.
+                </p>
+
+                <div class="case-studies-hero-actions">
+
+                    <a href="#all-case-studies"
+                       class="gradient-button">
+                        View Our Work
+                        <i class="fa-solid fa-arrow-down"></i>
+                    </a>
+
+                    <a href="contact.html"
+                       class="outline-button">
+                        Start a Project
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- Right: Decorative Visual -->
+            <div class="case-studies-hero-visual">
+
+                <div class="hero-visual-orbit hero-orbit-one"></div>
+                <div class="hero-visual-orbit hero-orbit-two"></div>
+
+                <div class="hero-visual-shape hero-shape-one"></div>
+                <div class="hero-visual-shape hero-shape-two"></div>
+
+                <div class="hero-visual-card hero-card-development">
+                    <i class="fa-solid fa-code"></i>
+                    <span>Development</span>
+                </div>
+
+                <div class="hero-visual-card hero-card-growth">
+                    <i class="fa-solid fa-chart-line"></i>
+                    <span>Growth</span>
+                </div>
+
+                <div class="hero-visual-center">
+                    <i class="fa-solid fa-arrow-trend-up"></i>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+
+<!-- ==========================================
+     ALL CASE STUDIES
+========================================== -->
+<section class="case-studies-projects reveal" id="all-case-studies">
+    <div class="container">
+
+        <!-- Section Heading -->
+        <div class="case-studies-projects-heading section-heading">
+
+            <span class="section-label">
+                Explore Our Work
+            </span>
+
+            <h2>
+                Browse Projects by <span>Category.</span>
+            </h2>
+
+            <p>
+                Explore our work across web design, development, SaaS,
+                and e-commerce experiences.
+            </p>
+
+        </div>
+
+
+        <!-- Category Filters -->
+        <div class="case-study-filters" role="tablist" aria-label="Case study categories">
+
+            <button class="case-filter active"
+                    type="button"
+                    data-filter="all"
+                    role="tab"
+                    aria-selected="true">
+                All Projects
+            </button>
+
+            <button class="case-filter"
+                    type="button"
+                    data-filter="web-design"
+                    role="tab"
+                    aria-selected="false">
+                Web Design
+            </button>
+
+            <button class="case-filter"
+                    type="button"
+                    data-filter="development"
+                    role="tab"
+                    aria-selected="false">
+                Development
+            </button>
+
+            <button class="case-filter"
+                    type="button"
+                    data-filter="saas"
+                    role="tab"
+                    aria-selected="false">
+                SaaS
+            </button>
+
+            <button class="case-filter"
+                    type="button"
+                    data-filter="ecommerce"
+                    role="tab"
+                    aria-selected="false">
+                E-commerce
+            </button>
+
+        </div>
+
+
+        <!-- Case Study Grid -->
+        <div class="case-studies-grid">
+
+
+            <!-- ==================================
+                 CASE STUDY 01 — SAAS
+            =================================== -->
+            <article class="case-study-card"
+                     data-category="saas development">
+
+                <div class="case-study-card-image">
+
+                    <img
+                        src="assets/images/saas.png"
+                        alt="B2B SaaS website project"
+                        loading="lazy"
+                    >
+
+                    <div class="case-study-card-tags">
+                        <span>SaaS</span>
+                        <span>Development</span>
+                    </div>
+
+                </div>
+
+                <div class="case-study-card-content">
+
+                    <span class="case-study-card-category">
+                        SaaS
+                    </span>
+
+                    <h3>
+                        Scaling Lead Generation for a
+                        B2B Software Company
+                    </h3>
+
+                    <p>
+                        A conversion-focused digital experience designed
+                        to strengthen product positioning, improve lead
+                        generation, and create a clearer path from discovery
+                        to action.
+                    </p>
+
+                    <div class="case-study-results">
+
+                        <span>
+                            <i class="fa-regular fa-circle-check"></i>
+                            +310% Qualified Leads
+                        </span>
+
+                        <span>
+                            <i class="fa-regular fa-circle-check"></i>
+                            −38% Cost Per Lead
+                        </span>
+
+                        <span>
+                            <i class="fa-regular fa-circle-check"></i>
+                            +145% Monthly Revenue
+                        </span>
+
+                    </div>
+
+                    <a href="case-studies/saas.html"
+                       class="case-study-link">
+                        View Case Study
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- ==================================
+                 CASE STUDY 02 — HEALTHCARE
+            =================================== -->
+            <article class="case-study-card"
+                     data-category="web-design development">
+
+                <div class="case-study-card-image">
+
+                    <!-- Replace filename only if your actual healthcare image
+                         uses a different filename. -->
+                    <img
+                        src="assets/images/healthcare.jpg"
+                        alt="Healthcare website project"
+                        loading="lazy"
+                    >
+
+                    <div class="case-study-card-tags">
+                        <span>Healthcare</span>
+                        <span>Web Design</span>
+                    </div>
+
+                </div>
+
+                <div class="case-study-card-content">
+
+                    <span class="case-study-card-category">
+                        Healthcare
+                    </span>
+
+                    <h3>
+                        Growing Local Visibility for a
+                        Multi-Clinic Healthcare Brand
+                    </h3>
+
+                    <p>
+                        A multi-location digital experience focused on
+                        improving local visibility, building trust, and
+                        increasing appointment opportunities across
+                        multiple clinic locations.
+                    </p>
+
+                    <div class="case-study-results">
+
+                        <span>
+                            <i class="fa-regular fa-circle-check"></i>
+                            +220% Website Traffic
+                        </span>
+
+                        <span>
+                            <i class="fa-regular fa-circle-check"></i>
+                            +160% Appointment Bookings
+                        </span>
+
+                        <span>
+                            <i class="fa-regular fa-circle-check"></i>
+                            96% Client Satisfaction
+                        </span>
+
+                    </div>
+
+                    <a href="case-studies/healthcare.html"
+                       class="case-study-link">
+                        View Case Study
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- ==================================
+                 CASE STUDY 03 — E-COMMERCE
+            =================================== -->
+            <article class="case-study-card"
+                     data-category="ecommerce web-design">
+
+                <div class="case-study-card-image">
+
+                    <!-- Replace filename only if your actual e-commerce
+                         image uses a different filename. -->
+                    <img
+                        src="assets/images/e-commerce.jpg"
+                        alt="Online fashion e-commerce website"
+                        loading="lazy"
+                    >
+
+                    <div class="case-study-card-tags">
+                        <span>E-commerce</span>
+                        <span>Web Design</span>
+                    </div>
+
+                </div>
+
+                <div class="case-study-card-content">
+
+                    <span class="case-study-card-category">
+                        E-commerce
+                    </span>
+
+                    <h3>
+                        Boosting Organic Traffic for an
+                        Online Fashion Store
+                    </h3>
+
+                    <p>
+                        An SEO-focused e-commerce experience designed to
+                        improve product discovery, technical performance,
+                        and the path from search traffic to online sales.
+                    </p>
+
+                    <div class="case-study-results">
+
+                        <span>
+                            <i class="fa-regular fa-circle-check"></i>
+                            +185% Organic Traffic
+                        </span>
+
+                        <span>
+                            <i class="fa-regular fa-circle-check"></i>
+                            +72% Online Sales
+                        </span>
+
+                        <span>
+                            <i class="fa-regular fa-circle-check"></i>
+                            4.8× Return on SEO Investment
+                        </span>
+
+                    </div>
+
+                    <a href="case-studies/ecommerce.html"
+                       class="case-study-link">
+                        View Case Study
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+    </div>
+</section>
+
+
+
+<!-- ==========================================
+     OUR APPROACH
+========================================== -->
+<section class="case-studies-approach reveal">
+
+    <div class="container">
+
+        <div class="approach-grid">
+
+            <!-- Left Content -->
+            <div class="approach-content">
+
+                <span class="section-label">
+                    How We Work
+                </span>
+
+                <h2>
+                    From Idea to
+                    <span>Impact.</span>
+                </h2>
+
+                <p>
+                    Great digital experiences don't happen by accident.
+                    We combine strategy, thoughtful design, and reliable
+                    development to turn business goals into digital
+                    experiences that work.
+                </p>
+
+                <a href="services.html" class="gradient-button">
+                    Explore Our Services
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+            </div>
+
+
+            <!-- Right: Process -->
+            <div class="approach-steps">
+
+                <!-- Step 01 -->
+                <div class="approach-step">
+
+                    <div class="approach-step-number">
+                        01
+                    </div>
+
+                    <div class="approach-step-content">
+
+                        <h3>
+                            Understand
+                        </h3>
+
+                        <p>
+                            We start by understanding your business,
+                            audience, goals, and the challenges standing
+                            in the way of growth.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Step 02 -->
+                <div class="approach-step">
+
+                    <div class="approach-step-number">
+                        02
+                    </div>
+
+                    <div class="approach-step-content">
+
+                        <h3>
+                            Design
+                        </h3>
+
+                        <p>
+                            We turn insights into intuitive layouts,
+                            engaging visuals, and user experiences
+                            designed around real customer needs.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Step 03 -->
+                <div class="approach-step">
+
+                    <div class="approach-step-number">
+                        03
+                    </div>
+
+                    <div class="approach-step-content">
+
+                        <h3>
+                            Build
+                        </h3>
+
+                        <p>
+                            We develop responsive, scalable websites
+                            with clean implementation and attention
+                            to performance.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Step 04 -->
+                <div class="approach-step">
+
+                    <div class="approach-step-number">
+                        04
+                    </div>
+
+                    <div class="approach-step-content">
+
+                        <h3>
+                            Improve
+                        </h3>
+
+                        <p>
+                            We look beyond launch to identify opportunities
+                            for refinement, optimization, and continued
+                            business growth.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================
+     CTA SECTION
+========================================= -->
+<section class="cta-section reveal">
+    <div class="container">
+        <div class="cta-box">
+            <!-- CTA Content -->
+            <div class="cta-content">
+                <h2>
+                    Ready to Grow Your Business?
+                </h2>
+                <p>
+                    Let's build a smarter digital strategy that
+                    drives traffic, generates leads, and grows
+                    your business.
+                </p>
+                <!-- CTA Benefits -->
+                <div class="cta-benefits">
+                    <span>
+                        <i class="fa-regular fa-circle-check"></i>
+                        No Long-Term Contracts
+                    </span>
+                    <span>
+                        <i class="fa-regular fa-circle-check"></i>
+                        Free Strategy Call
+                    </span>
+                    <span>
+                        <i class="fa-regular fa-circle-check"></i>
+                        Results-Driven Approach
+                    </span>
+                </div>
+            </div>
+
+            <!-- CTA Buttons -->
+            <div class="cta-actions">
+                <a href="contact.html" class="cta-primary">
+                    Get Free Strategy Call
+                </a>
+                <a href="contact.html" class="cta-secondary">
+                    Book a Consultation
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- =========================================
+     FOOTER
+========================================= -->
+<footer class="site-footer reveal">
+    <div class="container">
+        <div class="footer-main">
+            <!-- =================================
+                 BRAND COLUMN
+            ================================== -->
+            <div class="footer-brand">
+                <a href="index.html" class="footer-logo">
+                    <img
+                        src="assets/logos/elevate-digital-agency_.png"
+                        alt="Elevate Digital Agency"
+                    >
+                </a>
+                <!-- Social Links -->
+                <div class="footer-socials">
+                    <a
+                        href="#"
+                        aria-label="LinkedIn"
+                    >
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a
+                        href="#"
+                        aria-label="X"
+                    >
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+                    <a
+                        href="#"
+                        aria-label="GitHub"
+                    >
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- =================================
+                 QUICK LINKS
+            ================================== -->
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="services.html">Services</a>
+                    </li>
+                   
+                    <li>
+                        <a href="case-studies.html" class="active">Case Studies</a>
+                    </li>
+                    <li>
+                        <a href="pricing.html">Pricing</a>
+                    </li>
+                    <li>
+                        <a href="faq.html">FAQ</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- =================================
+                 RESOURCES
+            ================================== -->
+            <div class="footer-column">
+                <h3>Resources</h3>
+                <ul>
+                    
+                    <li>
+                        <a href="privacy-policy.html">
+                            Privacy Policy
+                        </a>
+                    </li>
+                    <li>
+                        <a href="terms-of-service.html">
+                            Terms of Service
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contact.html">
+                            Contact
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+
+
+        <!-- =================================
+             FOOTER BOTTOM
+        ================================== -->
+        <div class="footer-bottom">
+            <p>
+                © 2026 Elevate Digital. All rights reserved.
+                Designed &amp; Developed by Muskan Khosla.
+            </p>
+        </div>
+    </div>
+
+</footer>
+
+
+</main>
+
+<!-- slick slider -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+<!-- Your custom JS -->
+<script src="assets/js/script.js"></script>
+    
+</body>
+</html>

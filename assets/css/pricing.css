@@ -1,0 +1,419 @@
+/* ==========================================
+   PRICING HERO
+========================================== */
+
+.pricing-hero {
+    position: relative;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background:
+        radial-gradient(
+            circle at 85% 25%,
+            rgba(0, 184, 201, 0.14),
+            transparent 30%
+        ),
+        radial-gradient(
+            circle at 75% 80%,
+            rgba(245, 158, 11, 0.10),
+            transparent 30%
+        ),
+        var(--surface);
+}
+
+.pricing-hero-actions {
+    display: flex;
+    gap: 15px;
+}
+
+
+/* Decorative circles */
+
+.pricing-hero::before {
+    content: "";
+
+    position: absolute;
+
+    width: 450px;
+    height: 450px;
+
+    top: -180px;
+    right: -120px;
+
+    background: var(--surface);
+
+    border-radius: 50%;
+
+    filter: blur(20px);
+
+    pointer-events: none;
+}
+
+.pricing-hero::after {
+    content: "";
+
+    position: absolute;
+
+    width: 350px;
+    height: 350px;
+
+    bottom: -180px;
+    left: -120px;
+
+    background: rgba(0, 184, 201, 0.05);
+
+    border-radius: 50%;
+
+    filter: blur(20px);
+
+    pointer-events: none;
+}
+
+
+/* ==========================================
+   HERO CONTENT
+========================================== */
+
+.pricing-hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 1240px;
+    padding: 120px 0 100px;
+
+}
+
+
+/* Heading */
+
+.pricing-hero-content h1 {
+    margin: 0 0 24px;
+
+    color: var(--text-primary);
+
+    font-size: clamp(44px, 6vw, 72px);
+
+    line-height: 1.08;
+
+    letter-spacing: -1.5px;
+}
+
+.pricing-hero-content h1 span {
+    display: block;
+
+    background: var(--gradient-brand);
+
+    background-clip: text;
+    -webkit-background-clip: text;
+
+    color: transparent;
+}
+
+
+/* Description */
+
+.pricing-hero-content > p {
+    margin: 0 0 35px;
+
+    color: var(--text-secondary);
+
+    font-size: 17px;
+
+    line-height: 1.8;
+}
+
+
+
+
+
+
+/* ==========================================
+   WHAT'S INCLUDED
+========================================== */
+
+.pricing-included {
+    padding: 110px 0;
+
+    background: #fff;
+}
+
+
+/* ==========================================
+   SECTION HEADING
+========================================== */
+
+.included-heading {
+
+    margin: 0 auto 65px;
+
+    text-align: center;
+}
+
+
+
+
+/* ==========================================
+   INCLUDED GRID
+========================================== */
+
+.included-grid {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 1px;
+
+    background: var(--border);
+
+    border: 1px solid var(--border);
+    border-radius: 18px;
+
+    overflow: hidden;
+}
+
+
+/* ==========================================
+   INCLUDED ITEM
+========================================== */
+
+.included-item {
+    display: flex;
+
+    align-items: flex-start;
+
+    gap: 22px;
+
+    padding: 35px;
+
+    background: var(--surface);
+
+    transition:
+        background 0.3s ease;
+}
+
+.included-item:hover {
+    background: var(--text-white);
+}
+
+
+/* ==========================================
+   ICON
+========================================== */
+
+.included-icon {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    flex-shrink: 0;
+
+    width: 52px;
+    height: 52px;
+
+    color: var(--secondary);
+
+    background: #F59E0B20;
+
+    border-radius: 13px;
+
+    font-size: 19px;
+
+    transition:
+        color 0.3s ease,
+        background 0.3s ease,
+        transform 0.3s ease;
+}
+
+.included-item:hover .included-icon {
+    color: var(--text-white);
+
+    background: var(--secondary);
+
+    transform: translateY(-3px);
+}
+
+
+/* ==========================================
+   CONTENT
+========================================== */
+
+.included-number {
+    display: block;
+
+    margin-bottom: 7px;
+
+    color: var(--secondary);
+
+    font-size: 11px;
+
+    font-weight: 700;
+
+    letter-spacing: 1px;
+}
+
+.included-item h3 {
+    margin: 0 0 9px;
+
+    color: var(--text-primary);
+
+    font-size: 18px;
+}
+
+.included-item p {
+    max-width: 420px;
+
+    margin: 0;
+
+    color: var(--text-secondary);
+
+    font-size: 14px;
+
+    line-height: 1.7;
+}
+
+
+/* ==========================================
+   NOTE
+========================================== */
+
+.included-note {
+    display: flex;
+
+    align-items: flex-start;
+
+    gap: 12px;
+
+    max-width: 900px;
+
+    margin: 30px auto 0;
+
+    padding: 16px 20px;
+
+    background: var(--surface);
+
+    border: 1px solid var(--border);
+
+    border-radius: 10px;
+}
+
+.included-note i {
+    flex-shrink: 0;
+
+    margin-top: 3px;
+
+    color: var(--secondary);
+
+    font-size: 14px;
+}
+
+.included-note p {
+    margin: 0;
+
+    color: var(--text-secondary);
+
+    font-size: 13px;
+
+    line-height: 1.6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media (max-width: 768px) {
+
+    .pricing-hero {
+        padding: 110px 0 90px;
+    }
+
+    .pricing-hero-content h1 {
+        letter-spacing: -1px;
+    }
+
+    .pricing-hero-content > p {
+        font-size: 16px;
+    }
+
+    /* included  */
+    .pricing-included {
+        padding: 80px 0;
+    }
+
+    .included-heading {
+        margin-bottom: 45px;
+    }
+
+    .included-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .included-item {
+        padding: 28px 24px;
+    }
+
+}
+
+
+@media (max-width: 480px) {
+
+    .pricing-hero {
+        padding: 90px 0 75px;
+    }
+
+    .pricing-hero-content h1 {
+        font-size: 40px;
+    }
+
+    .pricing-hero-actions {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .pricing-hero .hero-button,
+    .hero-button-secondary {
+        width: 100%;
+
+        justify-content: center;
+    }
+
+
+    /* included  */
+    .included-heading h2 {
+        font-size: 36px;
+    }
+
+    .included-item {
+        gap: 16px;
+    }
+
+    .included-icon {
+        width: 46px;
+        height: 46px;
+
+        font-size: 17px;
+    }
+
+    .included-item h3 {
+        font-size: 17px;
+    }
+
+    .included-item p {
+        font-size: 13px;
+    }
+
+    .included-note {
+        padding: 15px;
+    }
+}
